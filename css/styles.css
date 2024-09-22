@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+table, th, td {
+    border: 1px solid black; /* Define uma borda preta */
+    border-collapse: collapse; /* Colapsa as bordas para não duplicar */
+  }
+  th, td {
+    padding: 10px; /* Espaçamento interno */
+  }
+
+  
+    /* Estilos do formulário */
+    form {
+      max-width: 400px;
+      margin: 1 auto;
+    }
+
+    /* Alinha o label e o input */
+    .form-group {
+      display: flexbox;
+      justify-content: space-between;
+      align-items: center; /* Alinha verticalmente os itens */
+      margin-bottom: 1%;
+    }
+
+    /* Faz com que o input e o textarea ocupem o mesmo espaço */
+    input {
+     
+      padding: 5px;
+      font-size: 1rem;
+      width: 100%;
+      box-sizing: border-box; /* Garante que padding seja incluído no tamanho total do elemento */
+    }
+
+    /* Botão de envio centralizado */
+    .submit-btn {
+      text-align: left;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }

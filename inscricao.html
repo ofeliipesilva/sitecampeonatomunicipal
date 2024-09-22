@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição - CMFC</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+       <p>Olá jogador aqui temos a pagina de inscrição para o campeonado municipal.<br><br><br> Abaixo segue regras para participar do campeonato!</p>
+       <li>Ser residente de Pato Branco Pr</li>
+       <li>Possuir titulo de eleitor na cidade de Pato Branco Pr</li>
+       <li>Possuir mais que 14 anos</li>
+       <li>Todas as equipes tem que ter no minimo 24 jogadores</li>
+       
+       <br><br><br><br><br><br>
+    </header>
+    <main>
+        <form id="Formulario" action="enviar_formulario.html" method="GET">
+            <div class="form-group">
+              <label for="nome">Nome Da Equipe:</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+        
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" id="tel" name="tel" required>
+              </div>
+            <div class="form-group">
+                <label for="Nome responsavel">Nome Responsavel:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group"></div>
+                <label for="CPF">CPF Responsavel:</label>
+                <input type="text" id="number" name=" number" required>
+            </div>
+         
+            <div class="form-group submit-btn">
+              <input type="submit" value="Enviar">
+            </div>
+          </form>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Voltar para o Inicio</a></li>
+                <li><a href="participantes.html">Participantes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="classificacao.html">Classificação</a></li>
+            </ul>
+        </nav>
+        <p>© 2024 CMFC. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
